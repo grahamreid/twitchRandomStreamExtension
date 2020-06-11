@@ -1,0 +1,22 @@
+{
+  "name": "Twitch Random Stream Finder",
+  "version": "1.0",
+  "description": "Select a random twitch stream URL out of all currently active twitch streams.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "https://37n4mub2u8.execute-api.us-east-1.amazonaws.com"
+  ],
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "icons": {
+    "16": "randomTwitchStream_16.png",
+    "48": "randomTwitchStream_48.png",
+    "128": "randomTwitchStream_128.png"
+  }
+}
